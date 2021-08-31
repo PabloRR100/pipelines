@@ -247,7 +247,8 @@ class PipelineUploadServiceApi(object):
         all_params = [
             'uploadfile',
             'name',
-            'pipelineid'
+            'pipelineid',
+            'description'
         ]
         all_params.extend(
             [
